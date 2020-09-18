@@ -10,10 +10,11 @@ pipeline{
           steps{
           bat 'mvn clean'
           }
-          stage('Clean'){
-          steps{
-          bat 'Clean Stage'
-          }
+      }
+      stage('Clean'){
+        steps{
+        bat 'Clean Stage'
+        }
       }
     }
 }
