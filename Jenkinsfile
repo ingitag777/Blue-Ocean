@@ -13,7 +13,7 @@ pipeline{
       }
       stage('Clean'){
         steps{
-        bat 'Clean Stage'
+        echo 'Clean Stage'
         }
       }
     }
